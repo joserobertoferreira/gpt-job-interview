@@ -47,6 +47,7 @@ THIRD_PARTY_APPS = []
 
 LOCAL_APPS = [
     'jobs.apps.JobsConfig',
+    'interviews.apps.InterviewsConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
